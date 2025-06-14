@@ -27,6 +27,7 @@ const questions = [
       "gcloud compute security-policies rules update 1000 \\\n-- security-policy from-fastly \\ \n-- src-ip-ranges * \\\n-- action \"allow\""
     ],
     "multiple": false
+    "explanation": "NOTE!!!: The suggested correct answer above is from Exam Topics. There are comments about the answer in Exam Topics for this question is wrong and it should have been gcloud compute security-policies rules update 1000 \\\n-- security-policy hlr-policy \\ \n-- expression \"evaluatePreconfiguredExpr ('sourceiplist-fastly')\" \\\n-- action \"allow\". It is up to you to decide which option you pick because nobody knows the right answer to this. Fun Fact: ChatGPT, Perplexity, Gemini and Grok are all saying gcloud compute security-policies rules update 1000 \\\n-- security-policy hlr-policy \\ \n-- expression \"evaluatePreconfiguredExpr ('sourceiplist-fastly')\" \\\n-- action \"allow\" is the correct answer."
   },
   {
     "question": "For this question, refer to the Helicopter Racing League (HRL) case study. The HRL development team releases a new version of their predictive capability application every Tuesday evening at 3 a.m. UTC to a repository. The security team at HRL has developed an in-house penetration test Cloud Function called\nAirwolf. The security team wants to run Airwolf against the predictive capability application as soon as it is released every Tuesday. You need to set up Airwolf to run at the recurring weekly cadence. \n\nWhat should you do?",
